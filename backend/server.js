@@ -13,10 +13,10 @@ app.use("/schoolImages", express.static(path.join(__dirname, "schoolImages")));
 
 
 const db = mysql.createConnection({
-  host: "localhost",
+  host: "mysql.railway.internal",
   user: "root",      // apna username
-  password: "Dream_Alpesh",      // apna password
-  database: "testdb" // apna database
+  password: "rPjVcDiKbxQtxqoEJVCrvwbpKQZvzZGd",      // apna password
+  database: "railway" // apna database
 });
 
 db.connect(err => {
